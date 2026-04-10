@@ -427,9 +427,9 @@ You must submit **ALL** of the following by **May 1**:
 | Category | Points | What judges look for |
 |----------|--------|---------------------|
 | **MVP Functionality** | **50** | Does it work? Buttons dispense stories? Rating saves? All 6 MVP requirements met? |
-| **Theme & Creativity** | **25** | Is the theme unique and consistent? Do stories, buttons, and design all match? Is the content original? |
+| **Theme & Creativity** | **35** | Is the theme unique and consistent? Do stories, buttons, and design all match? Is the content original? |
 | **Challenge Points** | **5–20 each** | Each completed challenge from the [Challenge Board](#challenge-board) earns bonus points. Must actually work! |
-| **Presentation & Code Quality** | **25** | Is the slideshow/video clear? Can you explain your code? Are there helpful comments? |
+| **Presentation & Code Quality** | **15** | Is the slideshow/video clear? Can you explain your code? Are there helpful comments? |
 
 **Total = 100 base points + bonus challenge points**
 
