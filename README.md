@@ -31,7 +31,7 @@ User rates the story → rating sent back to Google Sheets
 ## What You Need
 
 - **VS Code** — [Download here](https://code.visualstudio.com/) (code editor)
-- **Live Server extension** — installed inside VS Code (runs your site locally)
+- **Live Server extension** — [installed inside VS Code](https://drive.google.com/file/d/1RpnGkd6i6vV_sMSav3Suudwv30GHzZjk/view?usp=drive_link/) (runs your site locally)
 - **A Google account** — for Google Sheets and Apps Script
 
 That's it. No other tools or installs.
@@ -156,6 +156,8 @@ The Ratings tab is **separate from your Stories tab** — it's a second tab in t
 4. A random story should appear
 5. Click a star rating — you should see "Thanks for rating!"
 6. Check your Google Sheet — a **"Ratings" tab** should have appeared at the bottom with your rating!
+
+[Video Walkthrough](https://drive.google.com/file/d/1RpnGkd6i6vV_sMSav3Suudwv30GHzZjk/view?usp=drive_link/)
 
 > **Not working?** See the [Troubleshooting](#troubleshooting) section at the bottom.
 
