@@ -1,14 +1,14 @@
-# Digital Story Box — Hackathon 2026
+# Digital Story Dispenser — Hackathon 2026
 
-Build a **Digital Story Box** — a web app that dispenses stories, poems, jokes, or any creative writing at the press of a button! Choose any theme you want: horror, comedy, sci-fi, motivational quotes, fun facts, fairy tales. It's your box!
+Build a **Digital Story Dispenser** — a web app that dispenses stories, poems, jokes, or any creative writing at the press of a button! Choose any theme you want: horror, comedy, sci-fi, motivational quotes, fun facts, fairy tales. It's your dispenser!
 
 The example code is a basic starter. **Your job is to make it yours.**
 
 ---
 
-## What Is a Story Box?
+## What Is a Story Dispenser?
 
-A Story Box is a machine (digital or physical) that gives you a random story when you press a button. Think of it like a vending machine — but instead of snacks, it dispenses stories.
+A Story Dispenser is a machine (digital or physical) that gives you a random story when you press a button. Think of it like a vending machine — but instead of snacks, it dispenses stories.
 
 **How the data flows:**
 
@@ -54,6 +54,8 @@ That's it. No other tools or installs.
 3. Click **Install**
 4. That's it! You'll use this to run your website in a browser
 
+[Video Walkthrough](https://drive.google.com/file/d/1RpnGkd6i6vV_sMSav3Suudwv30GHzZjk/view?usp=drive_link/)
+
 > **Why Live Server?** Your website uses `fetch()` to download data. Browsers block `fetch()` if you just double-click an HTML file. Live Server creates a local server that makes `fetch()` work.
 
 ### Step 3: Create Your Google Sheet
@@ -61,7 +63,7 @@ That's it. No other tools or installs.
 This is where your stories live. Think of it as your database.
 
 1. Go to [sheets.google.com](https://sheets.google.com) and create a **new blank spreadsheet**
-2. Name it something like "My Story Box"
+2. Name it something like "Story Dispenser Database"
 3. In **Row 1**, type these column headers (one per cell):
 
 | A | B | C | D | E |
@@ -133,20 +135,19 @@ The Ratings tab is **separate from your Stories tab** — it's a second tab in t
 
 ### Step 6: Get Your Sheet ID and Apps Script URL into the Code
 
-1. Look at the URL bar of your Google Sheet:
-   ```
-   https://docs.google.com/spreadsheets/d/1aBcDeFgHiJkLmNoPqRsTuVwXyZ/edit
-                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                                          THIS is your Sheet ID
-   ```
-2. Copy that long string of letters and numbers
-3. Open `script.js` in VS Code
-4. Find these lines near the top and paste your values:
+1. Open `script.js` in VS Code
+2. Find these lines near the top and paste your values:
    ```js
    var GOOGLE_SHEET_ID = "1aBcDeFgHiJkLmNoPqRsTuVwXyZ";
    var APPS_SCRIPT_URL = "https://script.google.com/macros/s/XXXXX/exec";
    ```
-5. **Save the file** (Ctrl+S or Cmd+S)
+       Look at the URL bar of your Google Sheet:
+          ```
+          https://docs.google.com/spreadsheets/d/1aBcDeFgHiJkLmNoPqRsTuVwXyZ/edit
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                          THIS is your Sheet ID
+          ```
+3. **Save the file** (Ctrl+S or Cmd+S)
 
 ### Step 7: Run It!
 
@@ -190,7 +191,7 @@ The starter code is intentionally basic. Make it yours!
 
 ### Quick Customizations to Try First
 
-- Change the `<h1>` text in `index.html` to your box's name
+- Change the `<h1>` text in `index.html` to your dispenser's name
 - Change `background-color` in `style.css` to a different color
 - Change the button labels in `index.html` (the `data-type` must match your Sheet's Length column)
 - Change the button text to match genres instead of lengths
@@ -216,13 +217,13 @@ The MVP gets you 50 points. Each challenge below earns **bonus points**. Pick th
 | Pts | Challenge | What to Build |
 |-----|-----------|---------------|
 | **5** | **No-Repeat System** | Make sure the same story doesn't show up twice in a row. Save the last story and keep picking until you get a different one. |
-| **5** | **Story Counter** | Show "Story 3 of 25" on screen so users know how many stories are in the box and how many they've seen. |
+| **5** | **Story Counter** | Show "Story 3 of 25" on screen so users know how many stories are in the dispenser and how many they've seen. |
 | **10** | **Favorites System** | Let users save stories they love. Use `localStorage` so favorites survive page refreshes. Add a "View Favorites" page or section. |
 | **10** | **Category / Genre Filters** | Add buttons or a dropdown that lets users pick a genre (funny, spooky, sci-fi, etc.). Filter stories by the genre column before picking a random one. |
 | **10** | **Animations & Transitions** | Make stories fade in, slide in, flip, or bounce when they appear. Use CSS `@keyframes` and `animation` — no libraries needed. |
 | **10** | **Background Music** | Add ambient audio that fits your theme using the HTML `<audio>` element. Include a mute/unmute button. Find free music at [pixabay.com/music](https://pixabay.com/music/) or [freesound.org](https://freesound.org). |
 | **15** | **Story Profiles with Images** | Show an image or avatar for each author/story. Add an image URL column to your Google Sheet and display it alongside the story. Style it to match your theme. |
-| **15** | **Multiple Story Collections** | Create tabs or pages for different collections — like a "Spooky Box", "Funny Box", and "Sci-Fi Box" all in one site. Each tab filters by genre or reads from a different sheet. |
+| **15** | **Multiple Story Collections** | Create tabs or pages for different collections — like a "Spooky Dispenser", "Funny Dispenser", and "Sci-Fi Dispenser" all in one site. Each tab filters by genre or reads from a different sheet. |
 | **15** | **Reading History & Stats** | Track which stories the user has read (using `localStorage`), show a "read/unread" indicator, and display stats like "You've read 8 out of 25 stories!" |
 | **20** | **Live AI Story Generation** | Add a "Generate Story" button that connects to an AI API (like Google Gemini) to create brand-new stories on the fly based on your theme. This is advanced — you'll need an API key and `fetch()` with POST. |
 
@@ -368,7 +369,7 @@ All students work at their own pace over the two weeks. In-person attendance on 
 
 ### The Goal
 
-Build a **Digital Story Box** — a web app that dispenses creative content at the press of a button.
+Build a **Digital Story Dispenser** — a web app that dispenses creative content at the press of a button.
 
 Your job:
 - Start with the provided base code
@@ -399,7 +400,7 @@ The MVP is worth **50 points**. Every project must include ALL of the following:
 1. **A Google Sheet** with at least 10 stories/poems/entries
 2. **A chosen theme** — your theme must be reflected in EVERYTHING:
    - The stories/content match the theme
-   - The button labels match the theme (e.g. a children's book box might have "Toddler Stories", "4+ Year Old Stories", "Surprise!")
+   - The button labels match the theme (e.g. a children's book dispenser might have "Toddler Stories", "4+ Year Old Stories", "Surprise!")
    - The visual design matches the theme (colors, fonts, layout)
 3. **A homepage** with a title and at least 3 working buttons
 4. **A working dispense system** — click a button, see a random story
@@ -413,8 +414,8 @@ You must submit **ALL** of the following by **May 1**:
 1. **Your code** — `.zip` file or GitHub repo containing your `index.html`, `style.css`, and `script.js`
 
 2. **Presentation** (choose ONE):
-   - A **slideshow** (Google Slides, PowerPoint, etc.) — at least 3–5 slides explaining your Story Box: what it is, what makes it special, and screenshots showing it in action, OR
-   - A **video** (2–3 minutes max) — a screen recording of your Story Box in action with you narrating what it does and why you built it the way you did
+   - A **slideshow** (Google Slides, PowerPoint, etc.) — at least 3–5 slides explaining your Story Dispenser: what it is, what makes it special, and screenshots showing it in action, OR
+   - A **video** (2–3 minutes max) — a screen recording of your Story Dispenser in action with you narrating what it does and why you built it the way you did
 
    > **Tip for video:** You can use the free screen recorder built into most computers. On Mac: QuickTime > File > New Screen Recording. On Windows: press Win+G to open the Game Bar recorder. On Chromebook: Ctrl+Shift+Overview (the rectangle with lines key) to start screen capture.
 
