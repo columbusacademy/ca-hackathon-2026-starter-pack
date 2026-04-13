@@ -210,7 +210,7 @@ The starter code is intentionally basic. Make it yours!
 
 ## Challenge Board
 
-The MVP gets you 50 points. Each challenge below earns **bonus points**. Pick the ones that excite you — you don't have to do them all! They're sorted from easiest to hardest.
+The Base Project gets you 50 points. Each challenge below earns **bonus points**. Pick the ones that excite you — you don't have to do them all! They're sorted from easiest to hardest.
 
 | Pts | Challenge | What to Build |
 |-----|-----------|---------------|
@@ -391,9 +391,9 @@ Your job:
 
 > **If you use AI: you must be able to explain every line of your code.**
 
-### MVP Requirements (50 Points)
+### Base Project Requirements (50 Points)
 
-The MVP is worth **50 points**. Every project must include ALL of the following:
+The Base Project is worth **50 points**. Every project must include ALL of the following:
 
 1. **A Google Sheet** with at least 10 stories/poems/entries
 2. **A chosen theme** — your theme must be reflected in EVERYTHING:
@@ -425,21 +425,21 @@ You must submit **ALL** of the following by **May 1**:
 
 | Category | Points | What judges look for |
 |----------|--------|---------------------|
-| **MVP Functionality** | **50** | Does it work? Buttons dispense stories? Rating saves? All 6 MVP requirements met? |
-| **Theme & Creativity** | **35** | Is the theme unique and consistent? Do stories, buttons, and design all match? Is the content original? |
+| **Base Project Functionality** | **50** | Does it work? Buttons dispense stories? Rating saves? All 6 Base Project requirements met? |
+| **Theme & Creativity** | **25** | Is the theme unique and consistent? Do stories, buttons, and design all match? Is the content original? |
 | **Challenge Points** | **5–20 each** | Each completed challenge from the [Challenge Board](#challenge-board) earns bonus points. Must actually work! |
-| **Presentation & Code Quality** | **15** | Is the slideshow/video clear? Can you explain your code? Are there helpful comments? |
+| **Presentation & Code Quality** | **25** | Is the slideshow/video clear? Can you explain your code? Are there helpful comments? |
 
 **Total = 100 base points + bonus challenge points**
 
-The winner is determined by total score. A polished MVP with 2–3 solid challenges will beat a broken project with 10 half-finished features.
+The winner is determined by total score. A polished Base Project with 2–3 solid challenges will beat a broken project with 10 half-finished features.
 
 ### Important Expectations
 
 - You are expected to **try things, break things, and figure them out**
 - It does **NOT** need to be perfect
 - **Simple + well-executed** beats **complicated + broken**
-- The MVP is the floor, not the ceiling — push yourself!
+- The Base Project is the floor, not the ceiling — push yourself!
 
 ### Mindset
 
@@ -474,7 +474,7 @@ You haven't added your Sheet ID to `script.js`. Follow Steps 4–5 in the Setup 
 
 ## Tips for Success
 
-- **Get the MVP working first** — stories appearing is the priority, then add features
+- **Get the Base Project working first** — stories appearing is the priority, then add features
 - **Test after every change** — save, check the browser, repeat
 - **Use the browser console** — press F12 > Console to see errors
 - **Read the comments in the code** — they explain everything
