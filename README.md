@@ -142,11 +142,9 @@ The Ratings tab is **separate from your Stories tab** — it's a second tab in t
    var APPS_SCRIPT_URL = "https://script.google.com/macros/s/XXXXX/exec";
    ```
        Look at the URL bar of your Google Sheet:
-       ```
        https://docs.google.com/spreadsheets/d/1aBcDeFgHiJkLmNoPqRsTuVwXyZ/edit
                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
                                                  THIS is your Sheet ID
-       ```
 4. **Save the file** (Ctrl+S or Cmd+S)
 
 ### Step 7: Run It!
